@@ -1,3 +1,3 @@
-# TD2AndroidEILCO
+# TD Android EILCO
 
-TDAndroid
+TDs Android
