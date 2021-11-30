@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DiceRoller</string>
+    <string name="btn_de_label">Lancer les dés</string>
+    <string name="nombre_faces">Saisir le nombre de faces du dé!</string>
+</resources>
