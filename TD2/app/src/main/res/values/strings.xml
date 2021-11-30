@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">TD2</string>
     <string name="message">Salut tout le monde !</string>
+    <string name="hint_du_plat">Plat</string>
+    <string name="hint_de_l_entree">Entrée</string>
+    <string name="fromage_label">Fromage</string>
+    <string name="fruit_label">Fruit</string>
+    <string name="midi_label">Midi</string>
+    <string name="boutton_soir">Soir</string>
+    <string name="boutton_valider">Valider</string>
+    <string name="degage_label">Ciel dégagé</string>
+    <string name="boutton_annuler">Annuler</string>
+    <string name="temperature_label">Température (°C)</string>
+    <string name="etat_du_ciel_label">Etat du ciel</string>
+    <string name="vitesse_du_vent_label">Vitesse du vent (km/h)</string>
+    <string name="pluie_label">Pluvieux</string>
+    <string name="couvert_label">Couvert</string>
+    <string name="btn_back_label">Retour</string>
+    <string name="btn_ok_label">ok</string>
+
 </resources>

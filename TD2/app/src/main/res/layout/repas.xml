@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText_entree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/hint_de_l_entree"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editText_plat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_entree"
+        android:layout_alignStart="@+id/editText_entree"
+        android:ems="10"
+        android:hint="@string/hint_du_plat"
+        android:inputType="text" />
+
+    <CheckBox
+        android:id="@+id/checkBox_fromage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_plat"
+        android:layout_alignStart="@+id/editText_entree"
+        android:layout_marginStart="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/fromage_label" />
+
+    <CheckBox
+        android:id="@+id/checkBox_fruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox_fromage"
+        android:layout_alignStart="@+id/checkBox_fromage"
+        android:text="@string/fruit_label" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_midi_soir"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_alignStart="@+id/editText_entree"
+        android:layout_below="@+id/checkBox_fruit">
+
+        <RadioButton
+            android:id="@+id/radio_button_midi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/midi_label" />
+
+        <RadioButton
+            android:id="@+id/radio_button_soir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/boutton_soir" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_group_midi_soir"
+        android:layout_alignStart="@+id/editText_entree"
+        android:text="@string/boutton_valider" />
+
+    <Button
+        android:id="@+id/button_annuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_group_midi_soir"
+        android:layout_alignEnd="@+id/editText_entree"
+        android:text="@string/boutton_annuler" />
+</RelativeLayout>
