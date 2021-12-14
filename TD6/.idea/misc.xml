@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.32203592844794116" />
+        <entry key="app/src/main/res/layout/lister_repos.xml" value="0.34386391251518833" />
+        <entry key="app/src/main/res/layout/listerepos.xml" value="0.2585199946371143" />
+        <entry key="app/src/main/res/layout/recherche_repos.xml" value="0.17689530685920576" />
+        <entry key="app/src/main/res/layout/repo.xml" value="0.13072916666666667" />
+        <entry key="app/src/main/res/layout/searchrepos.xml" value="0.1272644927536232" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

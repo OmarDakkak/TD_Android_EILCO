@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TD6</string>
+    <string name="test">test</string>
+    <string name="chercher">Chercher</string>
+    <string name="ch_repos">Chercher une repo GitHub</string>
+    <string name="ls_repos">Lister Les repos d\'un utilisateur GitHub</string>
+</resources>
